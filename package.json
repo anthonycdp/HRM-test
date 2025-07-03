@@ -1,0 +1,46 @@
+{
+  "name": "orange-hrm-cypress-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive Cypress test automation for Orange HRM demo site",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --headed",
+    "cy:run:chrome": "cypress run --headed --browser chrome",
+    "cy:run:firefox": "cypress run --headed --browser firefox",
+    "cy:run:edge": "cypress run --headed --browser edge",
+    "test": "cypress run --headed",
+    "test:login": "cypress run --headed --spec \"cypress/e2e/01-login.cy.js\"",
+    "test:dashboard": "cypress run --headed --spec \"cypress/e2e/02-dashboard.cy.js\"",
+    "test:pim": "cypress run --headed --spec \"cypress/e2e/03-pim.cy.js\"",
+    "test:admin": "cypress run --headed --spec \"cypress/e2e/04-admin.cy.js\"",
+    "test:e2e": "cypress run --headed --spec \"cypress/e2e/05-end-to-end.cy.js\"",
+    "test:headless": "cypress run",
+    "test:record": "cypress run --record",
+    "test:parallel": "cypress run --parallel",
+    "verify": "cypress verify",
+    "info": "cypress info"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "testing",
+    "e2e",
+    "orange-hrm",
+    "qa",
+    "selenium"
+  ],
+  "author": "QA Team",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^14.5.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/orange-hrm-cypress-tests"
+  }
+}

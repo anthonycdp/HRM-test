@@ -1,0 +1,35 @@
+{
+  "data": {
+    "employeeDistribution": {
+      "total": 25,
+      "subUnits": [
+        {
+          "name": "Engineering",
+          "count": 15
+        },
+        {
+          "name": "Human Resources",
+          "count": 5
+        },
+        {
+          "name": "Sales",
+          "count": 3
+        },
+        {
+          "name": "Marketing",
+          "count": 2
+        }
+      ]
+    },
+    "pendingActions": {
+      "leaveRequests": 5,
+      "timesheets": 3,
+      "selfService": 2
+    },
+    "employeesOnLeave": 4,
+    "pendingTimesheets": 8
+  },
+  "meta": {
+    "timestamp": "2024-01-01T00:00:00Z"
+  }
+}

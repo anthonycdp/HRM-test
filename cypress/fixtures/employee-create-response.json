@@ -1,0 +1,15 @@
+{
+  "data": {
+    "empNumber": 3,
+    "firstName": "New",
+    "lastName": "Employee",
+    "employeeId": "12347",
+    "fullName": "New Employee",
+    "jobTitle": null,
+    "subunit": null,
+    "status": "Active"
+  },
+  "meta": {
+    "timestamp": "2024-01-01T00:00:00Z"
+  }
+}

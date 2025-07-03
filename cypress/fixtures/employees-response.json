@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "empNumber": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "employeeId": "12345",
+      "fullName": "John Doe",
+      "jobTitle": "Software Engineer",
+      "subunit": "Engineering",
+      "status": "Active"
+    },
+    {
+      "empNumber": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "employeeId": "12346",
+      "fullName": "Jane Smith",
+      "jobTitle": "HR Manager",
+      "subunit": "Human Resources",
+      "status": "Active"
+    }
+  ],
+  "meta": {
+    "total": 2,
+    "recordsFiltered": 2
+  }
+}

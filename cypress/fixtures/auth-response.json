@@ -1,0 +1,16 @@
+{
+  "data": {
+    "token": "mock-jwt-token",
+    "user": {
+      "id": 1,
+      "username": "Admin",
+      "firstName": "Admin",
+      "lastName": "User",
+      "email": "admin@orangehrm.com",
+      "role": "Admin"
+    }
+  },
+  "meta": {
+    "timestamp": "2024-01-01T00:00:00Z"
+  }
+}

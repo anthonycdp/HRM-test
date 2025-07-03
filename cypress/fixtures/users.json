@@ -1,0 +1,38 @@
+{
+  "validUser": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidUser": {
+    "username": "InvalidUser",
+    "password": "wrongPassword"
+  },
+  "emptyCredentials": {
+    "username": "",
+    "password": ""
+  },
+  "testEmployees": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "employeeId": "12345",
+      "email": "john.doe@example.com",
+      "contactNumber": "+1234567890",
+      "address": "123 Main St, City, State 12345"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "employeeId": "12346",
+      "email": "jane.smith@example.com",
+      "contactNumber": "+1234567891",
+      "address": "456 Oak Ave, City, State 12346"
+    }
+  ],
+  "searchData": {
+    "employeeName": "John Doe",
+    "employeeId": "12345",
+    "jobTitle": "Software Engineer",
+    "department": "Engineering"
+  }
+}
