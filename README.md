@@ -20,7 +20,7 @@ Para configurar e executar o projeto em seu ambiente local, siga as instruções
 ## Estrutura do Projeto
 
 ```
-/mnt/d/claude-code/HRM-test/
+HRM-test/
 ├── cypress/
 │   ├── e2e/         # Arquivos de teste (specs)
 │   ├── fixtures/    # Dados de teste (massa de dados)
