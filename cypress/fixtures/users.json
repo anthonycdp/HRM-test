@@ -1,0 +1,146 @@
+{
+  "admin": {
+    "username": "Admin",
+    "password": "admin123",
+    "firstName": "Admin",
+    "lastName": "User",
+    "employeeId": "0001"
+  },
+  "invalidUser": {
+    "username": "InvalidUser",
+    "password": "wrongpassword"
+  },
+  "testUsers": [
+    {
+      "firstName": "John",
+      "middleName": "Michael",
+      "lastName": "Doe",
+      "username": "john.doe",
+      "password": "Test@123",
+      "email": "john.doe@example.com",
+      "employeeId": "EMP001",
+      "userRole": "ESS",
+      "status": "Enabled"
+    },
+    {
+      "firstName": "Jane",
+      "middleName": "Elizabeth",
+      "lastName": "Smith",
+      "username": "jane.smith",
+      "password": "Test@123",
+      "email": "jane.smith@example.com",
+      "employeeId": "EMP002",
+      "userRole": "Admin",
+      "status": "Enabled"
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Johnson",
+      "username": "robert.johnson",
+      "password": "Test@123",
+      "email": "robert.johnson@example.com",
+      "employeeId": "EMP003",
+      "userRole": "ESS",
+      "status": "Enabled"
+    }
+  ],
+  "leaveData": {
+    "types": ["Annual Leave", "Sick Leave", "Personal Leave", "Maternity Leave"],
+    "testLeave": {
+      "type": "Annual Leave",
+      "fromDate": "2025-02-01",
+      "toDate": "2025-02-05",
+      "comment": "Family vacation",
+      "partialDays": "All Days",
+      "duration": "Full Day"
+    }
+  },
+  "candidateData": {
+    "testCandidate": {
+      "firstName": "Michael",
+      "middleName": "James",
+      "lastName": "Brown",
+      "email": "michael.brown@example.com",
+      "contactNumber": "+1234567890",
+      "vacancy": "Software Engineer",
+      "keywords": "java, spring, microservices",
+      "notes": "Strong technical background with 5 years of experience",
+      "consent": true,
+      "resume": "resume.pdf"
+    }
+  },
+  "performanceData": {
+    "tracker": {
+      "name": "Q1 Performance Review",
+      "employee": "John Doe",
+      "reviewers": ["Jane Smith", "Admin User"]
+    },
+    "kpi": {
+      "indicator": "Code Quality",
+      "jobTitle": "Software Engineer",
+      "minRating": "1",
+      "maxRating": "5",
+      "makeDefault": true
+    },
+    "evaluation": {
+      "ratings": ["4", "5", "4", "3", "5"],
+      "comments": "Excellent performance in all areas. Shows great initiative and leadership."
+    }
+  },
+  "claimData": {
+    "events": ["Medical Reimbursement", "Travel Expense", "Internet"],
+    "testClaim": {
+      "event": "Travel Expense",
+      "currency": "USD",
+      "remarks": "Business trip to client location",
+      "expenses": [
+        {
+          "type": "Transport",
+          "date": "2025-01-15",
+          "amount": "150.00",
+          "note": "Taxi fare to airport"
+        },
+        {
+          "type": "Accommodation",
+          "date": "2025-01-16",
+          "amount": "200.00",
+          "note": "Hotel stay"
+        }
+      ]
+    }
+  },
+  "buzzData": {
+    "posts": [
+      {
+        "text": "Excited to share that our team completed the project ahead of schedule! Great teamwork everyone!",
+        "type": "text"
+      },
+      {
+        "text": "Check out our team celebration photos!",
+        "type": "photo",
+        "photoPath": "team-photo.jpg"
+      },
+      {
+        "text": "Here's a great tutorial on Cypress testing",
+        "type": "video",
+        "videoUrl": "https://www.youtube.com/watch?v=example"
+      }
+    ],
+    "comments": [
+      "Great job team!",
+      "Congratulations everyone!",
+      "Well deserved celebration!"
+    ]
+  },
+  "timesheetData": {
+    "projects": ["ACME Corp", "Internal Project", "Client ABC"],
+    "activities": ["Development", "Testing", "Code Review", "Documentation"],
+    "testTimesheet": {
+      "employee": "John Doe",
+      "project": "ACME Corp",
+      "activity": "Development",
+      "hours": ["8", "8", "8", "8", "8", "0", "0"]
+    }
+  },
+  "maintenancePassword": "admin123"
+}
